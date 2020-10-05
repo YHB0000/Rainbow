@@ -1,0 +1,23 @@
+.container{
+    height: 753px;
+    width: 1536px;
+    background-image: linear-gradient(to top, #7C75A5 5%, #6FAFD2 100%);
+    overflow: hidden;
+}
+.c-left{
+    height: 100%;
+    width: 35%;
+    background-image: url("../imgs/感谢.jpeg");
+    background-size: 100% 99.9%;
+    z-index: 999;
+}
+.c-right{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+h2,h3,p{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}

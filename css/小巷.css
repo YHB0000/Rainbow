@@ -1,0 +1,23 @@
+.container{
+    height: 753px;
+    width: 1536px;
+    background-image: linear-gradient(to top, #454A24 0%, #F4C97C 100%);
+    overflow: hidden;
+}
+.c-left{
+    height: 100%;
+    width: 35%;
+    background-image: url("../imgs/小巷.jpeg");
+    background-size: 100% 100%;
+    z-index: 999;
+}
+.c-right{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+h2,h3,p{
+    color: #1E1915;
+    margin: 15px;
+}

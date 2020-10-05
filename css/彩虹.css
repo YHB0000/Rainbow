@@ -1,0 +1,165 @@
+#Cho{
+    height: 826px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.cho-left,.cho-right{
+    width: 540px;
+    height: 826px;
+    margin: 0 auto;
+}
+.cho-left div,.cho-right div{
+    float: left;
+    background-color: white;
+    border-bottom: 2px solid rgb(190, 190, 190); 
+    margin: 10px 10px;
+    transition: all 1s;
+    opacity: 0.85;
+}
+.cho-left div:hover,.cho-right div:hover{
+    transform: translateY(-10px);
+    border-bottom: 3.5px solid #5468a1;
+    opacity: 1;
+}
+
+/* cho1 */
+.cho1{
+    width: 250px;
+    height: 520px;
+}
+.cho1 h1{
+    text-align: center;
+    margin: 30px auto 10px;
+    font-size: 25px;
+}
+.cho1 p{
+    text-align: center;
+    margin: 5px auto;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+}
+.cho1 p:hover{
+    color: #5468a1;
+}
+.cho1 img{
+    display: block;
+    position: relative;
+    width: 242.5px;
+    height: 373px;
+    margin: 50px -7px 0 7px;
+}
+
+
+/* cho2 */
+.cho2{
+    width: 250px;
+    height: 250px;
+}
+.cho2 h4{
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    font-size: 16px;
+}
+.cho2 hr{
+    display: block;
+    width: 200px;
+    margin: 0 auto 10px;
+    border-bottom: 1.2px solid gray;
+}
+.cho2 ul{
+    display: block;
+    float: left;
+    width: 125px;
+    margin: 0 auto 10px;
+}
+.cho2 ul li{
+    display: inline-block;
+    margin: 10px auto;
+    width: 125px;
+    text-align: center;
+    font-size: 13px;
+}
+.HR{
+    border-top: 1px solid rgb(94, 94, 94);
+    clear: both;
+    width: 200px;
+    margin: 5px auto;
+}
+.cho2 a p{
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 90px 10px 100px;
+}
+.cho2 a:hover{
+    color: #5468a1;
+    font-weight: 600;
+}
+
+/* cho3 */
+.cho3,.cho3 img{
+    width: 250px;
+    height: 250px;
+}
+
+/* cho4 */
+.cho4{
+    width: 520px;
+    height: 250px;
+    overflow: hidden;
+}
+.cho4 img{
+    display: block;
+    width: 490px;
+    height: 260px;
+    margin: -5px auto;
+}
+
+/* cho5 */
+.cho5{
+    width: 520px;
+    height: 250px;
+}
+.cho5 img{
+    display: block;
+    margin: 0 auto;
+    width: 420px;
+    height: 250px;
+}
+
+/* cho6 */
+.cho6{
+    width: 250px;
+    height: 523px;
+    overflow: hidden;
+}
+.cho6 h2{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.cho6 p{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(77, 77, 77);
+}
+.cho6 p:hover{
+    color: #5468a1;
+}
+.cho6 img{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 100.5px 20px 0 0 ;
+}
+
+/* cho7\8 */
+.cho7,.cho7 img,.cho8,.cho8 img{
+    width: 250px;
+    height: 250px;
+}

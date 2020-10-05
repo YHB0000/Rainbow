@@ -1,0 +1,22 @@
+.container{
+    height: 753px;
+    width: 1536px;
+    background-image: linear-gradient(to top, rgb(255, 255, 255) 0%, #D4D6C1 100%);
+    overflow: hidden;
+}
+.c-left{
+    height: 100%;
+    width: 40%;
+    background-image: url("../imgs/如果有来生.JPEG");
+    background-size: 100% 99.9%;
+    z-index: 999;
+}
+.c-right{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+h2,h3,p{
+    color: rgb(58, 48, 48);
+}

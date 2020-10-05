@@ -1,0 +1,39 @@
+#Max{
+    height: 753px;
+    background-image: linear-gradient(45deg, #6A8595 40%, rgb(188, 181, 209) 100%);
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+#Max ul li div{
+    position: relative;
+    width: 220px;
+    height: 490px;
+    margin: 100px 24px;
+    border-bottom: 2px solid rgb(190, 190, 190); 
+    border-left: rgb(201, 201, 201) 1.5px solid;
+    top: 30px;
+    transition: all 1s;
+    opacity: 0.89;
+}
+#Max ul li div:hover{
+    transform: translateY(-10px);
+    border-bottom: 3.5px solid #5468a1;
+    opacity: 1;
+}
+#Max ul li{
+    float: left;
+}
+.max{
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 395px;
+    margin: 0 5px;
+}
+#Max ul li div h3,p{
+    text-align: center;
+    margin: 8px auto;
+    color: rgb(255, 255, 255);
+}
